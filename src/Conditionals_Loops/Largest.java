@@ -8,15 +8,17 @@ public class Largest {
             int a = input.nextInt();
             int b = input.nextInt();
             int c = input.nextInt();
-            //Finding the Largest of Three numbers
-            int max = a;
-            if (b > max){
-                max = b;
-            }
-            if (c > max ){
-                max = c;
-            }
-            System.out.println("Maximum num is " +max);
+//            //Finding the Largest of Three numbers
+//            int max = a;
+//            if (b > max){
+//                max = b;
+//            }
+//            if (c > max ){
+//                max = c;
+//            }
+//            System.out.println("Maximum num is " +max);
+            int max = Math.max(c,Math.max(a,b));
+            System.out.println(max);
 
         }
     }
