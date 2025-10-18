@@ -1,0 +1,24 @@
+package Conditionals_Loops;
+
+import java.util.Scanner;
+
+public class Largest {
+        public static void main(String[] args) {
+            Scanner input = new Scanner(System.in);
+            int a = input.nextInt();
+            int b = input.nextInt();
+            int c = input.nextInt();
+            //Finding the Largest of Three numbers
+            int max = a;
+            if (b > max){
+                max = b;
+            }
+            if (c > max ){
+                max = c;
+            }
+            System.out.println("Maximum num is " +max);
+
+        }
+    }
+
+
