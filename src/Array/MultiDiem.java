@@ -24,11 +24,19 @@ public class MultiDiem {
                 arr[rows][cols] = in.nextInt();
             }
         }
-        for (int rows = 0;rows< arr.length;rows++){
-            for (int cols = 0; cols < arr.length;cols++){
-                System.out.print(arr[rows][cols] + " ");
-            }
-            System.out.println();
+        //its full way to print MultiDimension arr
+//        for (int rows = 0;rows< arr.length;rows++){
+//            for (int cols = 0; cols < arr.length;cols++){
+//                System.out.print(arr[rows][cols] + " ");
+//            }
+//            System.out.println();
+//        }
+        // #its is 2nd way and easy way
+//        for (int rows = 0;rows< arr.length;rows++){
+//            System.out.println(Arrays.toString(arr[rows]));
+//        }
+        for(int[] a : arr){
+            System.out.println(Arrays.toString(a));
         }
 
     }
