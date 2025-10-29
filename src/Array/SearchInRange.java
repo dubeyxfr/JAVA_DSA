@@ -9,8 +9,7 @@ public class SearchInRange {
 
     }
     static int SearchInRange(int[] arr,int target, int start,int end){
-        if (arr.length == 0){
-            return -1;
+        if (arr.length == 0){return -1;
         }
         for (int i = start; i < end; i++) {
             int element = arr[i];
