@@ -26,10 +26,10 @@ public class SearchIn2Darr {
     }
     static int max(int[][] arr){
         int max = Integer.MIN_VALUE;
-        for (int rows = 0; rows < arr.length; rows++) {
-            for (int cols = 0; cols < arr[rows].length; cols++) {
-                if (arr[rows][cols] > max) {
-                    max = arr[rows][cols];
+        for (int[] ints : arr) {
+            for (int anInt : ints) {
+                if (anInt > max) {
+                    max = anInt;
                 }
             }
         }
