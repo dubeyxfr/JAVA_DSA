@@ -9,9 +9,10 @@ public class SearchIn2Darr {
                 {9,8,7},
                 {6,5,3}
         };
-        int target = 34;
+        int target = 9;
         int[] ans = search(arr,target);
         System.out.println(Arrays.toString(search(arr,target)));
+        System.out.println(max(arr));
     }
     static int[] search(int[][] arr,int target){
         for (int rows = 0;rows< arr.length;rows++){
@@ -23,4 +24,16 @@ public class SearchIn2Darr {
         }
         return new int[]{-1,-1};
     }
+    static int max(int[][] arr){
+        int max = Integer.MIN_VALUE;
+        for (int rows = 0; rows < arr.length; rows++) {
+            for (int cols = 0; cols < arr[rows].length; cols++) {
+                if (arr[rows][cols] > max) {
+                    max = arr[rows][cols];
+                }
+            }
+        }
+        return max;
+    }
+
 }
