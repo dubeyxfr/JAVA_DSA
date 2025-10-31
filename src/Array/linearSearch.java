@@ -2,7 +2,7 @@ package Array;
 
 public class linearSearch {
     public static void main(String[] args) {
-       int[] arrnum = {1,2,34,5,} ;
+       int[] arrnum = {1,2,34,5};
        int target = 34;
        int ans = LinearSearch(arrnum ,target);
         System.out.println("At the Index = " +ans);
