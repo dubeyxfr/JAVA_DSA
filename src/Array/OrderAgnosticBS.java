@@ -4,11 +4,11 @@ public class OrderAgnosticBS {
     public static void main(String[] args) {
         int[] arr = {5,4,3,2,1};
         int target = 4;
-        int ans = OrderAgnosticBS(arr,target);
+        int ans = orderAgnosticBS(arr,target);
         System.out.println(ans);
 
     }
-    static int OrderAgnosticBS(int[] arr, int target){
+    static int orderAgnosticBS(int[] arr, int target){
         int start = 0;
         int end = arr.length - 1;
         boolean isAsc = arr[start] < arr[end];
