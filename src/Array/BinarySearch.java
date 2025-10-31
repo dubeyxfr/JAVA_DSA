@@ -2,8 +2,8 @@ package Array;
 
 public class BinarySearch {
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 4, 5, 6, 7};
-        int target = 7;
+        int[] arr = {7,6,5,4,3,2,1};
+        int target = 6;
         int ans = binarySearch(arr, target);
         System.out.println("At the index no " + ans);
     }
