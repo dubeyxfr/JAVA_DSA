@@ -1,4 +1,4 @@
-package Array;
+package LeetcodeQuetsions;
 
 public class FloorNum {
     public static void main(String[] args) {

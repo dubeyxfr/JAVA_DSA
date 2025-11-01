@@ -1,6 +1,4 @@
-package Array;
-
-import javax.xml.stream.events.StartDocument;
+package LeetcodeQuetsions;
 
 public class ceilingNum {
     public static void main(String[] args) {

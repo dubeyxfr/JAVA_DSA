@@ -1,4 +1,4 @@
-package Array;
+package LeetcodeQuetsions;
 //second Question
 public class maxWealth {
     public static void main(String[] args) {
