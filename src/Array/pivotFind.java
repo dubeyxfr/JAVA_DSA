@@ -1,13 +1,12 @@
-package LeetcodeQuetsions;
+package Array;
 
-public class BinarySearch {
+import javax.swing.plaf.synth.SynthOptionPaneUI;
+
+public class pivotFind {
     public static void main(String[] args) {
-        int[] arr = {1,2,3,4,5,6,7};
-        int target = 6;
-        int ans = binarySearch(arr, target);
-        System.out.println("At the index no " + ans);
-    }
+        int[] arr = {3,4,5,6,7,0,1,2};
 
+    }
     static int binarySearch(int[] arr, int target) {
         int start = 0;
         int end = arr.length - 1;
@@ -19,7 +18,7 @@ public class BinarySearch {
                 end = mid - 1;
             } else if (target > arr[mid]) {
                 start = mid + 1;
-            } else {
+            } else if(arr[mid] > arr[mid + 1]) {
                 return mid; // target found
             }
         }
@@ -27,3 +26,4 @@ public class BinarySearch {
         return -1; // target not found
     }
 }
+
