@@ -30,7 +30,7 @@ public class findRotationOfArray {
 
   */
 
-
+    // my approach....
     // Normal approach of the this question
 //    static int countRotations(int[] arr) {
 //        int n = arr.length;
