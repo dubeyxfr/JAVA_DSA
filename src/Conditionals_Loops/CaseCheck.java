@@ -10,6 +10,11 @@ public class CaseCheck {
             System.out.println("LowerCase");
         }else {
             System.out.println("UpperCase");
+
+            System.out.println("commit message check");
+            System.out.println("another commit message check");
+
+
         }
     }
 }
