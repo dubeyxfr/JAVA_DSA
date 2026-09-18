@@ -15,6 +15,13 @@ public class CaseCheck {
             System.out.println("another commit message check");
 
 
+            System.out.println("Commit message check");
+            System.out.println("Commit message check");
+
+            System.out.println("datla loves tania");
+
+
+
         }
     }
 }
