@@ -10,5 +10,7 @@ public class Shadowing {
     }
     static void fun(){
         System.out.println(x);
+
+        
     }
 }
