@@ -8,8 +8,6 @@ public class Questions {
         System.out.print("Enter the Number: ");
         int num = in.nextInt();
         System.out.println(isPrime(num));
-
-
     }
     static boolean isPrime(int num){
         if (num <= 1){
