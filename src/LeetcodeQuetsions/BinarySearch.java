@@ -23,7 +23,6 @@ public class BinarySearch {
                 return mid; // target found
             }
         }
-
         return -1; // target not found
     }
 }
